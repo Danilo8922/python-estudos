@@ -1,4 +1,4 @@
-import math
+from math import trunc
 numero = float(input('digite um numero real e eu lhe mostrarei o inteiro '))
-inteiro = math.trunc(numero)
+inteiro = trunc(numero)
 print(inteiro)
