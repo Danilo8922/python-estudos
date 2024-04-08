@@ -1,0 +1,6 @@
+n = str(input('digite um numero de 0 a 9999 '))
+lista = n.split()
+print('sua unidade é {}' .format(lista(0)))
+print('sua dezena é {}' .format(lista(1)))
+print('sua centenas é {}' .format(lista(2)))
+print('sua milhares é {}' .format(lista(3)))
